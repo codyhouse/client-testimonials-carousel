@@ -279,7 +279,8 @@ Main components
   height: 100%;
   width: 100%;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  /* On iPhones prevents page scrolling */
+  /* -webkit-overflow-scrolling: touch; */
 }
 .cd-testimonials-all .cd-testimonials-all-wrapper > ul {
   width: 90%;
