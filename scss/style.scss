@@ -283,7 +283,6 @@ Main components
 		height: 100%;
 		width: 100%;
 		overflow: auto;
-		-webkit-overflow-scrolling: touch;
 
 		> ul {
 			width: 90%;
@@ -344,6 +343,10 @@ Main components
 		-webkit-transition: opacity .3s 0s, visibility 0s 0s;
 		-moz-transition: opacity .3s 0s, visibility 0s 0s;
 		transition: opacity .3s 0s, visibility 0s 0s;
+
+		.cd-testimonials-all-wrapper { 
+			-webkit-overflow-scrolling: touch;
+		}
 
 		.cd-testimonials-item {
 			// @include animation(cd-slide-in .3s);
